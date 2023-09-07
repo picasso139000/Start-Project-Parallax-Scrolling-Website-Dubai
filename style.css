@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background:linear-gradient(#040228,#0075c7);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    z-index: 1000;
+}
+.logo{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+
+.navbar a:hover,
+.active{
+    background-color: #00a3b9;
+}
+
+.paralex{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.paralex img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+}
+.sec{
+    padding: 100px;
+    position: relative;
+    background-color: #040228;
+}
+h2{
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+p{
+    color: #fff;
+}
